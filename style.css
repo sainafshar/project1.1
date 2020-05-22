@@ -1,1 +1,11 @@
+body {
+  width: 100%;
+  background-color: pink;
 
+}
+
+div.header {
+  height: 5vh;
+  background-color: orange;
+  
+}
