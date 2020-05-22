@@ -6,7 +6,7 @@ body {
 
 div.header {
   height: 8vh;
-  background-color: pink;
+  background-color: rgb(235, 162, 52);
   padding: 5pt 0;
   text-align: center;
   justify-content: center;
@@ -33,9 +33,78 @@ div.bar a {
 div.bar a:hover {
   font-size: 13pt;
   color: white;
-  background-color: pink;
+  background-color: rgb(235, 162, 52);
   padding: 15pt 10pt;
   border-radius: 2pt;
   font-weight: bold;
   transition: .2s;
+}
+
+section.intro {
+  width: 100%;
+  margin-top: 7vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.books {
+  background-color: grey;
+  width: 50vw;
+  height: 90vh;
+}
+
+div.books > h2 {
+  color: white;
+  width: 6vw;
+  height: 6vh;
+  font-size: 15pt;
+  font-weight: lighter;
+  padding: 12pt 12pt;
+  margin-left: 10pt;
+  border: 2pt solid white;
+  text-align: left;
+}
+span {
+  color: grey;
+  font-size: 10pt;
+  font-style: italic;
+}
+div.books > h2:hover {
+  width: 16vw;
+  background-color: darkgrey;
+  border: none;
+  padding: 15pt 15pt;
+  text-align: left;
+  transition: .1s;
+}
+div.covers {
+  margin-top: 5vh;
+  background-color: blue;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+div.covers > div.a{
+  background-color: pink;
+  padding: 10pt 10pt;
+  margin: 10pt 10pt;
+  text-align: center;
+}
+div.a > img {
+  width: 12vw;
+}
+div.a > h2 {
+  width: 12vw;
+  font-weight: lighter;
+  color: lightgrey;
+  font-size: 11pt;
+  background-color: blue;
+}
+
+div.a > p {
+  background-color: yellow;
+  height: 15vh;
 }
