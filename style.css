@@ -3,7 +3,6 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
-
 div.header {
   height: 8vh;
   background-color: rgb(235, 162, 52);
@@ -11,25 +10,21 @@ div.header {
   text-align: center;
   justify-content: center;
 }
-
 div.header h1 {
   font-size: 35pt;
   color: white;
 }
-
 div.bar {
   padding: 13pt 50pt;
   text-align: left;
   justify-content: left;
 }
-
 div.bar a {
   color: lightgrey;
   font-size: 11pt;
   text-decoration: none;
   padding: 0 12pt;
 }
-
 div.bar a:hover {
   font-size: 13pt;
   color: white;
@@ -39,72 +34,77 @@ div.bar a:hover {
   font-weight: bold;
   transition: .2s;
 }
-
 section.intro {
   width: 100%;
-  margin-top: 7vh;
+  margin-top: 15vh;
   display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
+  flex-flow: row;
+  align-items: left;
+  justify-content: left;
 }
-
-div.books {
-  background-color: grey;
-  width: 50vw;
-  height: 90vh;
-}
-
 div.books > h2 {
-  color: white;
+  color: grey;
   width: 6vw;
   height: 6vh;
   font-size: 15pt;
   font-weight: lighter;
   padding: 12pt 12pt;
-  margin-left: 10pt;
-  border: 2pt solid white;
+  margin-left: 6vw;
+  border: 2pt solid grey;
   text-align: left;
 }
 span {
-  color: grey;
+  color: white;
   font-size: 10pt;
   font-style: italic;
 }
 div.books > h2:hover {
-  width: 16vw;
-  background-color: darkgrey;
+  height: 8vw;
+  color: lightgrey;
+  background-color: black;
   border: none;
   padding: 15pt 15pt;
   text-align: left;
-  transition: .1s;
+  transition: .5s;
 }
 div.covers {
-  margin-top: 5vh;
-  background-color: blue;
+  background-color: grey;
+  margin-top: 2vh;
+  width: 50vw;
+  height: 80vh;
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
-}
-div.covers > div.a{
-  background-color: pink;
-  padding: 10pt 10pt;
-  margin: 10pt 10pt;
   text-align: center;
+  margin-left: 10vw;
+}
+div.a{
+  height: 65vh;
+  width: 14vw;
 }
 div.a > img {
   width: 12vw;
 }
 div.a > h2 {
-  width: 12vw;
-  font-weight: lighter;
-  color: lightgrey;
+  font-weight: bold;
+  color: white;
   font-size: 11pt;
-  background-color: blue;
 }
-
 div.a > p {
-  background-color: yellow;
-  height: 15vh;
+  line-height: 14pt;
+  margin: 5pt 20pt;
+  color: lightgrey;
+  font-size: 8pt;
+  font-weight: lighter;
+  text-align: justify;
+}
+ul.list {
+  text-align: left;
+  justify-content: left;
+}
+ul.list li{
+  color: lightgrey;
+  font-size: 8pt;
+  margin: 3pt 0;
 }
