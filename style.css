@@ -42,23 +42,24 @@ section.intro {
   align-items: left;
   justify-content: left;
 }
-div.books > h2 {
+div.releaces > h2 {
   color: grey;
   width: 6vw;
   height: 6vh;
   font-size: 15pt;
   font-weight: lighter;
   padding: 12pt 12pt;
-  margin-left: 6vw;
+  margin-top: 15vh;
+  margin-left: 8vw;
   border: 2pt solid grey;
   text-align: left;
 }
 span {
   color: white;
-  font-size: 10pt;
+  font-size: 9pt;
   font-style: italic;
 }
-div.books > h2:hover {
+div.releaces > h2:hover {
   height: 8vw;
   color: lightgrey;
   background-color: black;
@@ -71,26 +72,62 @@ div.covers {
   background-color: grey;
   margin-top: 2vh;
   width: 50vw;
-  height: 80vh;
+  height: 50vh;
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 10vw;
+  margin-left: 8vw;
 }
 div.a{
-  height: 65vh;
   width: 14vw;
 }
 div.a > img {
   width: 12vw;
+  margin: 2vh 0;
 }
-div.a > h2 {
+div.a > a {
   font-weight: bold;
   color: white;
   font-size: 11pt;
+  text-decoration: none;
 }
+div.a > h2 {
+  font-weight: lighter;
+  color: lightgrey;
+  font-size: 10pt;
+  text-decoration: none;
+}
+section.library {
+  width: 100vw;
+  height: 80vh;
+  background-color: blue;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section.library > h2 {
+  color: grey;
+  font-size: 15pt;
+  font-weight: lighter;
+}
+div.books {
+  width: 80vw;
+  background-color: red;
+  display: flex;
+  flex-flow: row;
+  overflow: scroll;
+  margin-top: 2vh;
+}
+
+a#books img {
+  width: 8vw;
+  padding: 10pt 10pt;
+}
+/*
 div.a > p {
   line-height: 14pt;
   margin: 5pt 20pt;
@@ -108,3 +145,4 @@ ul.list li{
   font-size: 8pt;
   margin: 3pt 0;
 }
+*/
